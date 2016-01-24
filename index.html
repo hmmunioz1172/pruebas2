@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    
+<meta charset="utf-8">
+ 
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+ 
+   <title>jQuery Cyclorama</title>
+<link href="jquery-mobile/jquery.mobile-1.0.min.css" rel="stylesheet" type="text/css"/>
+<script src="jquery-mobile/jquery-1.6.4.min.js" type="text/javascript"></script>
+<script src="jquery-mobile/jquery.mobile-1.0.min.js" type="text/javascript"></script>
+
+
+    <link rel="stylesheet" href="css/jquery.cyclorama.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <script src="js/jquery.cyclorama.js"></script>
+    <script>
+        jQuery(function ($) {
+            $('.cyclorama').cyclorama({useKeyboard: true});
+        });
+    </script>
+</head>
+<body>
+
+<h1 class="title">jQuery Cyclorama</h1>
+
+<div class="cyclorama">
+
+    <div class="pan-inner">
+        <div class="pan-content">
+            <img src="images/canal-rocks-360-degrees_01.jpg" alt="">
+            <img src="images/canal-rocks-360-degrees_02.jpg" alt="">
+            <img src="images/canal-rocks-360-degrees_03.jpg" alt="">
+            <img src="images/canal-rocks-360-degrees_04.jpg" alt="">
+            <img src="images/canal-rocks-360-degrees_05.jpg" alt="">
+        </div>
+    </div>
+
+    <button class="pan-left"></button>
+    <button class="pan-right"></button>
+
+    <div class="pan-percentage">
+        <div class="pan-runner"></div>
+    </div>
+
+</div>
+
+</body>
+</html>
